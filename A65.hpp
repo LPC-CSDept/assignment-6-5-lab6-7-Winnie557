@@ -28,18 +28,18 @@ void swaptwo(int &a, int &b){
     b = a-b;
     a = a-b;
 }
-int main(){
-    int a, b, c;
-    getInput(a,b,c);
-    cout << "Before swapping a = " << a << ", b = " << b << ", c = " << c << endl;
-    swap(a,b,c);
-    cout << "After swapping a = " << a << ", b = " << b << ", c = " << c << endl;
-    getInput1(a,b);
-    cout << "Before swapping a = " << a << ", b = " << b << endl;
-    swaptwo(a,b);
-    cout << "After swapping a = " << a << ", b = " << b << endl;
-    return 0;
-}
+// int main(){
+//     int a, b, c;
+//     getInput(a,b,c);
+//     cout << "Before swapping a = " << a << ", b = " << b << ", c = " << c << endl;
+//     swap(a,b,c);
+//     cout << "After swapping a = " << a << ", b = " << b << ", c = " << c << endl;
+//     getInput1(a,b);
+//     cout << "Before swapping a = " << a << ", b = " << b << endl;
+//     swaptwo(a,b);
+//     cout << "After swapping a = " << a << ", b = " << b << endl;
+//     return 0;
+// }
 
 
 
